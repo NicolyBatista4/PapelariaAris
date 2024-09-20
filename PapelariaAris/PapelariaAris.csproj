@@ -52,10 +52,48 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\clientesirismoon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Connection.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +126,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\OIP1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lovepik-stationery-border-png-image_401565297_wh1200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-bright-colors-education-supplies-background-text-study-classroom-vector-picture-image_10128349.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1257014507-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo Virtual Páscoa Ilustrativo Neon Pastel Roxo-claro Verde-claro Rosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo Virtual Páscoa Ilustrativo Neon Pastel Roxo-claro Verde-claro Rosa %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View\borbon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View\borbon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabilo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabilo %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabilo %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo moonnova1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
